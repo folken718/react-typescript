@@ -1,0 +1,55 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "prettier",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "semi": 0,
+    "import/prefer-default-export": 1,
+    "react/destructuring-assignment": 0,
+    "no-plusplus": 0,
+    "no-unused-vars": 1,
+    "react/prop-types": 0,
+    "react/no-access-state-in-setstate": 1,
+    "react/sort-comp": 0,
+    "react/no-array-index-key": 1,
+    "no-restricted-syntax": 0,
+    "class-methods-use-this": 0,
+    "react/no-unused-state": 1,
+    "react/prefer-stateless-function": 0,
+    "no-useless-constructor": 1,
+    "no-param-reassign": 1,
+    "consistent-return": 1,
+    "array-callback-return": 1,
+    "react/jsx-props-no-spreading": 1,
+    "react-hooks/rules-of-hooks": 0, // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": 1, // Checks effect dependencies
+    "jsx-a11y/label-has-associated-control": 1,
+    "jsx-a11y/no-onchange": 1,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true
+      }
+    ]
+  }
+}
