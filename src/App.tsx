@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Sample from './Example Components/Sample';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
-        <Sample msg={'Hello from simple component written in typescript!!'} />
+        <Sample msg="Hello from react typescript" />
       </header>
     </div>
   );

@@ -36,12 +36,16 @@
     "react-hooks/exhaustive-deps": 1, // Checks effect dependencies
     "jsx-a11y/label-has-associated-control": 1,
     "jsx-a11y/no-onchange": 1,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
     "react/jsx-filename-extension": [
       1,
       {
         "extensions": [
           ".js",
-          ".jsx"
+          ".jsx",
+          ".ts",
+          ".tsx"
         ]
       }
     ],
